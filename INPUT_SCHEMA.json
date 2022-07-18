@@ -1,0 +1,14 @@
+{
+    "title": "Lookup offers on Amazon by keyword",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "keyword",
+            "type": "string",
+            "description": "Keyword to be searched",
+            "editor": "textfield"
+        }
+    },
+    "required": ["keyword"]
+}

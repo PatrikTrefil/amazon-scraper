@@ -1,0 +1,8 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["@apify", "plugin:@typescript-eslint/recommended", "prettier"],
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "import/extensions": "off"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "amazon-offer-scraper",
+    "version": "0.0",
+    "buildTag": "latest",
+    "env": {
+        "APIFY_HEADLESS": "1"
+    },
+    "template": "project_cheerio_crawler"
+}

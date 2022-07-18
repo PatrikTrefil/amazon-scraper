@@ -1,0 +1,29 @@
+{
+    "name": "amazon-offer-scraper",
+    "version": "0.0.1",
+    "description": "This is a boilerplate of an Apify actor.",
+    "dependencies": {
+        "apify": "^2.3.2",
+        "playwright": "*"
+    },
+    "devDependencies": {
+        "@apify/eslint-config": "^0.1.3",
+        "@types/jquery": "^3.5.14",
+        "@typescript-eslint/eslint-plugin": "^5.30.6",
+        "@typescript-eslint/parser": "^5.30.6",
+        "eslint": "^7.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "typescript": "^4.7.4"
+    },
+    "main": "./dist/main.js",
+    "scripts": {
+        "start": "node ./dist/main.js",
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "lint": "npx eslint ./src --ext .js,.jsx,.ts,.tsx",
+        "lint:fix": "npx eslint ./src --ext .js,.jsx,.ts,.tsx --fix",
+        "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+    },
+    "author": "Patrik Trefil",
+    "license": "ISC"
+}
